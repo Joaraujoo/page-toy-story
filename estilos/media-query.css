@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media (max-width: 680px){
+
+    body, html{
+        overflow: hidden;
+    }
+
+    #background-fundo{
+        object-fit: cover;
+    }
+
+    .corner-right{
+        display: none;
+    }
+
+    .corner-left{
+        align-items: center;
+
+    }
+
+    .corner-left p{
+        width: 300px;
+        padding-right: 20px;
+    }
+
+    .corner-left button, .corner-left a{
+        width: 150px;
+    }
+
+    .navigation{
+        column-gap: 20px;
+    }
+}
